@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  background-color: hsl(212, 45%, 89%);
+}
+
+main {
+  width: 1440px;
+  height: 600px;
+  font-family: Outfit;
+  font-size: 15px;
+}
+
+.container {
+  width: 300px;
+  height: 430px;
+  background-color: hsl(0, 0%, 100%);
+  position: relative;
+  top: 85px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 20px;
+  border-radius: 15px;
+}
+
+.qrcode img {
+  width: 260px;
+  height: 260px;
+  border-radius: 15px;
+}
+
+.first-line {
+  font-weight: 900;
+  font-size: 20px;
+  color: hsl(218, 44%, 22%);
+}
+
+.second-line {
+  font-weight: 400;
+  color: hsl(220, 15%, 55%);
+}
+
+.attribution {
+  margin-left: 550px;
+}
+.attribution a {
+  text-decoration: none;
+}
+.attribution a:hover {
+  text-decoration: underline;
+}
