@@ -1,50 +1,78 @@
 body {
-  margin: 0;
-  background-color: hsl(212, 45%, 89%);
-}
-
-main {
+  background-color: hsl(217, 54%, 11%);
   width: 1440px;
   height: 600px;
-  font-family: Outfit;
-  font-size: 15px;
+  font-family: 'Outfit', sans-serif;
 }
 
-.container {
+.card {
+  background-color: hsl(216, 50%, 16%);
   width: 300px;
-  height: 430px;
-  background-color: hsl(0, 0%, 100%);
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
   position: relative;
-  top: 85px;
-  margin: 0 auto;
+  top: 50px;
+}
+.image {
   text-align: center;
-  padding-top: 20px;
-  border-radius: 15px;
+}
+img {
+  width: 250px;
+  height: 250px;
+  margin-top: 15px;
+  border-radius: 20px;
 }
 
-.qrcode img {
+.equi {
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+}
+
+.text {
+  margin-left: 25px;
+
+}
+
+.first {
+  color: hsl(215, 51%, 70%);
+  font-weight: 200;
+}
+.left, .right {
+  font-size: 12px;
+}
+.left {
+  float: left;
+  color: hsl(178, 100%, 50%);
+}
+.right {
+  color: hsl(215, 51%, 70%);
+  margin-left: 150px;
+}
+.line {
+  border-bottom: 0.5px solid White;
   width: 260px;
-  height: 260px;
-  border-radius: 15px;
 }
-
-.first-line {
-  font-weight: 900;
-  font-size: 20px;
-  color: hsl(218, 44%, 22%);
+.creation {
+  margin-top: -20px;
+  font-size: 12px;
 }
-
-.second-line {
-  font-weight: 400;
-  color: hsl(220, 15%, 55%);
+.creation img {
+  width: 30px;
+  height: 30px;
+  border-style: solid;
+  border-color: white;
+  border-width: thin;
 }
-
-.attribution {
-  margin-left: 550px;
+.creation span {
+  position: relative;
+  top: -10px;
+  left: 10px;
 }
-.attribution a {
-  text-decoration: none;
+.firstspan {
+  color: hsl(215, 51%, 70%);
 }
-.attribution a:hover {
-  text-decoration: underline;
+.jules {
+  color: hsl(0, 0%, 100%);
 }
